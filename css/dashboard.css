@@ -1,0 +1,53 @@
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coin-img {
+  width: 40px;
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.profit {
+  color: #22c55e;
+}
+
+.loss {
+  color: #ef4444;
+}
+
+.fav-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.loader {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  color: red;
+}
